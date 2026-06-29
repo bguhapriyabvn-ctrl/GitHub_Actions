@@ -1,0 +1,21 @@
+name: Hello Workflow
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        
+      - name: Print Hello
+      - uses: actions/setup-java@v4
+
+Actions" 
+      - name: Show Current Date
+        run: date
+  
