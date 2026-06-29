@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
         
       - name: Print Hello
-      - uses: echo "Hello GitHub Actions"
+      - run: echo "Hello GitHub Actions"
       
       - name: Show Current Date
         run: date
